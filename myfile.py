@@ -11,5 +11,3 @@ st.write()
 st.line_chart()
 
 st.title()
-x=pd.DataFrame(
-  np.random.randn(1000,2)/[50,50]+[]
