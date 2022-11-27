@@ -1,4 +1,6 @@
-#$ python -m pip install --user matplotlib
+$ python -m pip install --user matplotlib
+
+
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 ax.bar([1, 2, 3], [3, 2, 1])
