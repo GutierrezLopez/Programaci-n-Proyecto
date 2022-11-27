@@ -1,4 +1,5 @@
-python -m pip install --user matplotlib
+
+#$ pip install matplotlib --upgrade
 
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
