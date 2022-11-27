@@ -1,4 +1,4 @@
-$ python -m pip install --user matplotlib
+$ python3 -m pip install --user matplotlib
 
 
 import matplotlib.pyplot as plt
