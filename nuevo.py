@@ -1,4 +1,4 @@
-$ python3 -m pip install --user matplotlib
+python3 -m pip install matplotlib --pre --use
 
 
 import matplotlib.pyplot as plt
