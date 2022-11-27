@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
-from matplotlib import cm
-from matplotlib import colors 
+
 porcentaje = [63.27,36.73]
 sexo = ["M","F"]
 colores = ["#60D394","#FFD97D"]
