@@ -1,5 +1,15 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 
+
+with st.sidebar:
+    selected = option_menu(
+        menu_title = 'Menu', 
+        options = ['Inicio', 'Reportes', 'Equipo'],
+        icons = ['house', 'book', 'people'],
+        menu_icon='dog',
+        default_index = 0,
+    )
 st.set_page_config(
     page_title="FALLECIDOS COVID",
     page_icon="👋",
