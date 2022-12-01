@@ -39,3 +39,4 @@ def selected_bbox_in_boundary(geometry: dict, boundary: CoordinateBoundaries = C
         elif lat < boundary.lat_min or lat > boundary.lat_max:
             return False
     return True
+ 
